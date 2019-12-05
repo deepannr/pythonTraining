@@ -18,3 +18,11 @@ print(modifiedList[0])
 print(modifiedList[0][2])
 print(modifiedList[1])
 print(modifiedList[2][2])
+
+modifiedList.append("Added New")
+
+print(modifiedList)
+
+modifiedList.insert(1, [1, 0, -1])
+
+print(modifiedList)
