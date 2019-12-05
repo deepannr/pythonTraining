@@ -3,7 +3,7 @@
     Tuples have curly braces ( & )
 '''
 
-tempTuple = (1,2,3)
+tempTuple = (1, 2, 3)
 
 '''
 Printing all the elements in Tuple
@@ -12,7 +12,6 @@ print(tempTuple)
 
 # Printing an element in tuple
 print(tempTuple[2])
-
 
 modifiedTuple = (tempTuple, "Basic", (0, 2, 4), [1, 31, "ListBasic"])
 
