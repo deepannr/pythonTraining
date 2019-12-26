@@ -7,7 +7,7 @@ print(arrays)
 arrays.append("15")
 arrays.append("One")
 arrays.append("15")
-arrays.append(3)
+arrays.append('3')
 arrays.append(15)
 print(arrays)
 

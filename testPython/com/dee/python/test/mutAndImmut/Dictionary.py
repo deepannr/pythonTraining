@@ -1,10 +1,16 @@
-cities = {'city' : ['Kg', 'Hsra', 'Svg']}
+'''
+    Dictionary have braces { & }
+    Lists have square braces [ & ]
+    Tuples have curly braces ( & )
+'''
 
-myDictionary = {'Name' : 'Dee', 'Age' : 39, 'cities' : cities}
+locations = {'city' : ['Kg', 'Hsra', 'Svg'], 'state' : ['TN', 'KL', 'KA']}
 
-tempDict = myDictionary['cities']
+myDictionary = {'Name' : 'Dee', 'Age' : 39, 'locations' : locations}
 
-print(myDictionary['cities'])
+tempDict = myDictionary['locations']
+
+print(myDictionary['locations'])
 
 print(tempDict['city'])
 

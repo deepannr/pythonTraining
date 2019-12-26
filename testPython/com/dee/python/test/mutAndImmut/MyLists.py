@@ -1,4 +1,5 @@
 '''
+    Dictionary have braces { & }
     Lists have square braces [ & ]
     Tuples have curly braces ( & )
 '''
