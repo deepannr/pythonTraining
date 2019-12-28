@@ -5,7 +5,7 @@
 '''
 
 tempTuple = (1, 2, 3)
-
+print(type(tempTuple))
 '''
 Printing all the elements in Tuple
 '''
@@ -23,3 +23,6 @@ print(modifiedTuple[1])
 print(modifiedTuple[2][2])
 print(modifiedTuple[3])
 print(modifiedTuple[3][2])
+
+modifiedTuple[3][2] = "ListModified"
+print(modifiedTuple)

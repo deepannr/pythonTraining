@@ -7,7 +7,7 @@
 myList = [1, 1.1, "String"]
 
 print(myList)
-
+print(type(myList))
 '''
 List even can contain list inside and tuples also
 '''
