@@ -8,6 +8,7 @@ Created on May 13, 2019
 def myFunction(string):
     print("Function Call ", string)
     toInput = input("Enter String : ")
+    print('Function', toInput)
     return toInput
 
     
