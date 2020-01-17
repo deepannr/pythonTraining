@@ -18,12 +18,13 @@ print(myList[1:3])
 
 print("\n---More Slicing---")
 listTuple = ["1st", "2nd", ("1stTup", "2ndTup", "3rdTup", "4thTup"), "3rd"]
-print(listTuple[2][1:3])
+print(listTuple[2][0:2])
 listTuple = ["1st", "2nd", ("1stTup", "2ndTup", "3rdTup", ["A", "B", "C", "D", "E"], "4thTup"), "3rd"]
-print(listTuple[2][3][1:4])
+print(listTuple[2][3][2:4])
 
 print("\n---Concatenation---")
 print(myList + ["fifth", "sixth"])
+print(myList) #Here the list will remain same
 
 print("\n---Indexing---")
 print(myList[3])

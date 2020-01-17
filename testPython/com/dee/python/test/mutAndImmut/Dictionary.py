@@ -22,6 +22,7 @@ print(tmpDict)
 print("\n---Keys and Items---")
 print(myDictionary.keys())
 print(myDictionary.items())
+print(myDictionary)
 
 print("\n---Sorting---")
 print(sorted(myDictionary.keys()))
