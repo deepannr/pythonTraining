@@ -1,5 +1,6 @@
 globalVar = "Global Scope"
 print("Global Variable called from outside class before class call:",globalVar)
+
 class FirstClass():
     classVar = 10
     print("Global Variable called from inside class:",globalVar)
@@ -8,6 +9,7 @@ class FirstClass():
         print("Type is", type(self))
         print("Hello. Method inside Class")
         print("Global Variable called from method inside class:",globalVar)
+        print("Inside method calling classVar:",FirstClass.classVar)
 
 print("Global Variable called from outside class after class call:",globalVar)
 ob = FirstClass()

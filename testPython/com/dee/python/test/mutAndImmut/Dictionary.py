@@ -38,4 +38,4 @@ print("\n---Remove and Find---")
 del(myDictionary['Age'])
 print(myDictionary.get("Age"))
 print(myDictionary["Name"])
-#print(myDictionary["Age"]
+#print(myDictionary["Age"]) #As age is removed, will throw runtime error

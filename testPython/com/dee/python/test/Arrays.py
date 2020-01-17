@@ -9,9 +9,10 @@ arrays.append("One")
 arrays.append("15")
 arrays.append('3')
 arrays.append(15)
+arrays.insert(0, 1)
 print(arrays)
 
-# Remove first Occurance of String 15
+# Remove first Occurrence of String 15
 arrays.remove("15")
 print(arrays)
 
