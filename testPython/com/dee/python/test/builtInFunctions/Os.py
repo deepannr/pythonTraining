@@ -1,0 +1,22 @@
+import os
+print("\nOS:", dir(os))
+print(os.name)
+print(os.environ)
+print(os.getlogin())
+print(os.getpid())
+os.mkdir("F:/Temp")
+print("Join Path", os.path.join("Temp", "temp"))
+print("Abs Path?", os.path.abspath("basicFile.py"))
+print("Abs Path:", os.path.abspath("Temp"))
+print("Exists?", os.path.exists("Temp"))
+print("Exists?", os.path.exists("F:/Projects/"))
+print("Directory?", os.path.exists("F:/Projects/"))
+print("Directory?", os.path.exists("F:/Projects/Python/PythonTraining/Code/testPython/com/dee/python/test/Arrays.py"))
+os.chdir("F:/Temp")
+print(os.getcwd())
+os.chdir("F:/Projects/Python/PythonTraining/Code/testPython/com/dee/python/test")
+print(os.getcwd())
+os.rmdir("F:/Temp")
+
+for file in os.walk("F:/Projects/Python/PythonTraining/Code/testPython/com/dee/python/test"):
+    print("File:", file)
