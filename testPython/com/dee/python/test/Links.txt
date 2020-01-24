@@ -1,0 +1,1 @@
+Install Numpy in Eclipse - http://www.planetofbits.com/python/how-to-install-a-python-package-in-eclipse/
