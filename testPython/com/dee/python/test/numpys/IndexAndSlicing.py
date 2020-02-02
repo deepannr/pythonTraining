@@ -1,5 +1,6 @@
 #4:04:09
 import numpy as np
+from numpy.core._multiarray_umath import dtype
 
 npArray = np.arange(1, 27)
 indexNum = npArray[19]
@@ -19,13 +20,22 @@ arr_slice = slice(2, 26, 3)
 slice_array = npArray[arr_slice]  # Starts with 2nd index, ends up till 26th index with step of 3 
 print("Slicing:", slice_array)
 print("Arranging into 2 dimensional:\n", slice_array.reshape(4, 2))
-print("Arranging into 3 dimensional:\n", slice_array.reshape(2, 2, 2))
+arra3d = slice_array.reshape(2, 2, 2)
+print("Arranging into 3 dimensional:\n", arra3d)
+print("Shape:", arra3d.shape, "Dimension:", arra3d.ndim, "Items:", arra3d.itemsize)
 print("Between Slicing:", npArray[3:20])
 print("Before Slicing:", npArray[:20])
 print("After Slicing:", npArray[5:])
 
 
 print("\n---Slicing Multi Dimensional Array--")
-arrMd = np.array([1, 2, 3], [4, 5, 6], [7, 8, 9])
-print("0:2 x 23:25:\n", arrMd[0:2, 0:2])
-#print("0:2 x 13:15 x 23:25:\n", arrMd.reshape[0:2, :2, :2])
+print("Row x Column")
+arrMd = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print("0:2 x 0:2:\n", arrMd[0:2, 0:2])
+print("0:5 x 1:2:\n", arrMd[0:5, 1:2])
+print(":2 x 1: :\n", arrMd[:2, 1:])
+
+print("\n---Printing random Array---")
+print("Int array:", np.empty([3,4], dtype=int))
+print("Float Array:", np.empty([3, 2], dtype=float))
+print("Byte Array:", np.empty([3, 2], dtype=bytes))
