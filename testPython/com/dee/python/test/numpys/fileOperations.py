@@ -12,3 +12,7 @@ print("anothArr:", anothArr)
 np.savetxt("numpyFile.csv", arrMd, delimiter=",")
 
 np.savetxt("numpyFileDelimiter.txt", arrMd, delimiter = ";")
+
+newArr = np.genfromtxt("numpyFileDelimiter.txt", delimiter = ";")
+
+print("From txt:", newArr)

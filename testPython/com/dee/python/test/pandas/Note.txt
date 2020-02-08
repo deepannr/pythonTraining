@@ -1,0 +1,10 @@
+Series - 1 - Labeled, homogeneous array of immutable size
+	They are value mutable and size mutable
+	np.arrange(n)
+	Deep copies the data i.e copies exactly like the origin
+
+Data Frames - 2 - Size - tabular data structures
+	pandas.DataFrame(data, index, dtype, copy) 
+		copy - true or false true or shallow copy
+
+Panels - 3 - Label, Size-mutable array
