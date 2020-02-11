@@ -1,0 +1,22 @@
+{
+    "_id" : ObjectId("5e4234b59293292494b7bbff"),
+    "ciId" : NumberLong(28172514),
+    "hostName" : "S616642_1.J32",
+    "primaryIdAddr" : "67.54.111.126",
+    "prodReleaseName" : "Juniper EX3200-24T",
+    "prodReleaseVersion" : "ATS CPE",
+    "prodReleaseNameVersion" : "Juniper EX3200-24T (ATS CPE)",
+    "status" : "Installed",
+    "physicalSiteName" : "S616642",
+    "ownerSiteName" : "S232031",
+    "customerName" : "Drilling Info, Inc.",
+    "dateCreated" : ISODate("2013-07-30T18:30:00.000Z"),
+    "dateModified" : ISODate("2016-01-26T18:30:00.000Z"),
+    "audit" : {
+        "createdDate" : ISODate("2020-02-11T04:59:33.391Z"),
+        "createdBy" : "networkSync",
+        "updatedDate" : ISODate("2020-02-11T04:59:33.391Z"),
+        "updatedBy" : "networkSync"
+    },
+    "_class" : "com.ctl.config.mgmt.type.VantiveNetworkDevice"
+}

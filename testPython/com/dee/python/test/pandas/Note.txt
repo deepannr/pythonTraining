@@ -8,3 +8,8 @@ Data Frames - 2 - Size - tabular data structures
 		copy - true or false true or shallow copy
 
 Panels - 3 - Label, Size-mutable array
+
+
+install openpyxl
+install xlrd
+python -m pip install --upgrade pip
