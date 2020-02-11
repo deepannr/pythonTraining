@@ -1,4 +1,4 @@
-# 4:34:14
+#4:37:00
 
 import pandas as pd
 
@@ -20,15 +20,16 @@ marksTable['Dp'] = pd.Series([90, 89, 95], index=['Cse', 'Chemistry', 'Mathemati
 print("\n---Print All Marks---\n", marksTable)
 
 print("\n---Add New Row---")
-addRow = pd.DataFrame([[70, 71], [72, 73]], columns=['Dee', 'Pan'])
-marksTable.append(addRow)
+addRow = pd.DataFrame([[70, 71, 73]], columns=['Dee', 'Dp', 'Pan'])
+marksTable = marksTable.append(addRow)
 print(marksTable)
 
-print("\n---Print Mathematics Row---\n")
-print(marksTable.loc['Mathematics'])
+print("\n---Print Mathematics Row---\n", marksTable.loc['Mathematics'])
 
-print("\n---Print 0th Row---\n")
-print(marksTable.iloc[0])
+print("\n---Print 0th Row---\n", marksTable.iloc[0])
+
+#del and pop is for removing columns
+#drop is for removing rows
 
 del(marksTable['Dp'])
 
@@ -38,5 +39,9 @@ delEntry = marksTable.pop('Pan')
 print("\n---Popping Pan Entry---\n", delEntry)
 print("\n---After removing Pan---\n", marksTable)
 
+marksTable = marksTable.drop(0)
+print("\n---After Drop 0---\n", marksTable)
 
 
+marksTable = marksTable.drop('Chemistry')
+print("\n---After Drop Chemistry---\n", marksTable)
