@@ -1,0 +1,15 @@
+https://scipy.org/docs.html
+
+
+
+Matplotlib is a python library for graphs, charts in order to provide interactive data visualization
+Matplotlib is inspired from MATLAB software and reproduce many of its features. But no need to know about MATLAB software.
+
+pip install matplotlib
+
+
+Plot Types
+	- Scatter Plot
+	- Histogram
+	- Bar Graph
+	- Pie Chart
