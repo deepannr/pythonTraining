@@ -1,6 +1,5 @@
 #4:04:09
 import numpy as np
-from numpy.core._multiarray_umath import dtype
 
 npArray = np.arange(1, 27)
 indexNum = npArray[19]

@@ -24,6 +24,7 @@ plp.xlabel("X-Axis")
 plp.ylabel("Y-Axis")
 plp.suptitle("Super Title")
 plp.title("Title")
+plp.grid(True)
 plp.show()
 
 
@@ -37,6 +38,7 @@ plp.xlabel("X-Axis")
 plp.ylabel("Y-Axis")
 plp.suptitle("Super Title")
 plp.title("Title")
+plp.grid(True)
 plp.show()
 
 
@@ -50,4 +52,5 @@ plp.xlabel("X-Axis")
 plp.ylabel("Y-Axis")
 plp.suptitle("Super Title")
 plp.title("Title")
+plp.grid(True)
 plp.show()
