@@ -6,7 +6,6 @@ print(someValue)
 
 #Histogram
 plp.hist(someValue)
-plp.hist(someValue)
 plp.title("Histogram")
 plp.suptitle("SuperTitle")
 plp.xlabel("X-Axis")
