@@ -1,4 +1,3 @@
-#4:04:09
 import numpy as np
 
 npArray = np.arange(1, 27)
