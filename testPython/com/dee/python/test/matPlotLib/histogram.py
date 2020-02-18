@@ -1,7 +1,6 @@
 import numpy as np, matplotlib.pyplot as plp
 
 someValue = np.random.randn(10, 10)
-np.random.randn(10, 10)
 print(someValue)
 
 #Histogram
